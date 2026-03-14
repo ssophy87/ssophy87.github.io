@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Task1/">
+    <Project Path="Task1/WinForm/WinForm.csproj" />
+  </Folder>
+  <Folder Name="/Task2/">
+    <Project Path="Task2/MainForm/MainForm.csproj" />
+    <Project Path="Task2/UnitTestTask/UnitTestTask.csproj" />
+  </Folder>
+  <Folder Name="/Task3/">
+    <Project Path="Task3/CircleMover/CircleMover.csproj" />
+  </Folder>
+</Solution>

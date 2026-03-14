@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net10.0-windows7.0": {
+      "MainForm/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/MainForm.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MainForm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainForm/1.0.0": {
+      "type": "project",
+      "path": "../MainForm/MainForm.csproj",
+      "msbuildProject": "../MainForm/MainForm.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net10.0-windows7.0": [
+      "MainForm >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\232909071094-22\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "H:\\Практика\\Илья\\TaskMain-main\\Task2\\UnitTestTask\\UnitTestTask.csproj",
+      "projectName": "UnitTestTask",
+      "projectPath": "H:\\Практика\\Илья\\TaskMain-main\\Task2\\UnitTestTask\\UnitTestTask.csproj",
+      "packagesPath": "C:\\Users\\232909071094-22\\.nuget\\packages\\",
+      "outputPath": "H:\\Практика\\Илья\\TaskMain-main\\Task2\\UnitTestTask\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\232909071094-22\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net10.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net10.0-windows7.0": {
+          "targetAlias": "net10.0-windows",
+          "projectReferences": {
+            "H:\\Практика\\Илья\\TaskMain-main\\Task2\\MainForm\\MainForm.csproj": {
+              "projectPath": "H:\\Практика\\Илья\\TaskMain-main\\Task2\\MainForm\\MainForm.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net10.0-windows7.0": {
+        "targetAlias": "net10.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

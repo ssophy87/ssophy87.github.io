@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IL5jCr1OoAM=",
+  "success": true,
+  "projectFilePath": "H:\\Практика\\Илья\\TaskMain-main\\Task1\\WinForm\\WinForm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\232909071094-22\\.nuget\\packages\\jetbrains.annotations\\2025.2.4\\jetbrains.annotations.2025.2.4.nupkg.sha512"
+  ],
+  "logs": []
+}
